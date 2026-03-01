@@ -1,0 +1,12 @@
+.{
+    .name = .epoll_shim,
+    .version = "0.0.20240608",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://github.com/jiixyj/epoll-shim/archive/refs/tags/v0.0.20240608.tar.gz",
+            .hash = "N-V-__8AAHXtBwCSOXtbMYaK4qLA4r8wzLHXg8FYPmDmG5uJ",
+        },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "README.md", "LICENSE" },
+    .fingerprint = 0x1c3d3fcb4c777e17,
+}
